@@ -13,6 +13,6 @@ var dateDiffInDays = function (date1, date2) {
 };
 
 // Do not change the code below.
-const date1 = parseFloat(promp("Enter Start Date."));
-const date2 = parseFloat(promp("Enter End Date."));
+const date1 = parseFloat(prompt("Enter Start Date."));
+const date2 = parseFloat(prompt("Enter End Date."));
 alert(dateDiffInDays(date1, date2));  
